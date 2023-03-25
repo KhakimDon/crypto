@@ -1,3 +1,34 @@
-h1{
-    background-color: red;
+*{
+    padding: 0;
+    margin: 0;
+ background-color: rgba(13, 13, 43, 1);
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1440px;
+height: 850px;
+
+margin: auto;
+}
+.section{
+display: flex;
+justify-content: space-between;
+}
+.left{
+    width: 788px;
+    color: azure;
+    font-size: 54px;
+
+}
+.p{
+    width: 435px;
+    font-size: 20px;
+    margin-top: 16px;
+}
+.but{
+    margin-top: 32px;
+}
+.right{
+    width: 330px;
+    margin: auto;
 }
