@@ -1,3 +1,40 @@
-h1{
-    background-color: red;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 163px;
+    background-color: #0D0D2B;
+    position: fixed;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 120px;
+}
+.cop-name{
+    color: white;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 16px;
+}
+.header-stufs{
+    margin-left: 450px;
+}
+.s1{
+    color: white;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 16px;
 }
