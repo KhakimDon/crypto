@@ -29,12 +29,64 @@ header{
     margin-left: 16px;
 }
 .header-stufs{
+    display: flex;
+    justify-content: center;
     margin-left: 450px;
 }
 .s1{
     color: white;
     font-family: Inter;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
-    margin-left: 16px;
+}
+.s2{
+    color: white;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 32px;
+}
+.s3{
+    color: white;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 32px;
+}
+.s4{
+    color: white;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 32px;
+}
+.s5{
+    color: white;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 56px;
+}
+.line{
+    display: inline-block;
+    width: 1px;
+    height: 24px;
+    background: #f2f2f2;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.header-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 52px;
+    border-radius: 32px;
+    background-color: #3671E9;
+}
+.h-b-t-register{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
 }
