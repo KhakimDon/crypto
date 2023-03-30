@@ -2,16 +2,13 @@
     margin: 0;
     padding: 0;
 }
-body{
-    display: flex;
-    justify-content: center;
-}
 header{
     display: flex;
     align-items: center;
-    width: 1440px;
+    z-index: 999999;
+    width: 100%;
     height: 163px;
-    background-color: #0D0D2B;
+    background-color: #0d0d2b94;
     position: fixed;
 }
 .main{
@@ -19,7 +16,7 @@ header{
     align-items: center;
 }
 .logo{
-    margin-left: 120px;
+    margin-left: 400px;
 }
 .cop-name{
     color: white;
@@ -76,6 +73,7 @@ header{
     margin-right: 24px;
 }
 .header-button{
+    transition-duration: .3s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,12 +81,106 @@ header{
     height: 52px;
     border-radius: 32px;
     background-color: #3671E9;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
 }
 .h-b-t-register{
     font-family: Inter;
     font-weight: 500;
     font-size: 16px;
     color: white;
+}
+.header-button:hover{
+    background-color: white;
+    color: #3671E9;
+}
+
+
+.first-section{
+    width: 100%;
+    height: 850px;
+    background-color: #0D0D2B;
+    background-image: url(../Assets/Images/Illustration.png);
+    background-position: 946px 163px;
+    background-repeat: no-repeat;
+    background-size: 100;
+    padding-top: 243px;
+}
+.value-proposition{
+    display: flex;
+    flex-direction: column;
+    width: 588px;
+    height: 468px;
+    margin-left: 400px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 365px;
+    height: 40px;
+    background-color: #FFFFFF1A;
+    border-radius: 32px;
+}
+.save{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 113px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0D0D2B;
+}
+.info-t{
+    margin-left: 16px;
+    font-family: Rubik;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+}
+.f-s-text{
+    margin-left: 400px;
+    margin-top: -400px;
+}
+.f-s-title{
+    width: 588px;
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 64px;
+    color: #ffffff;
+}
+.f-s-undertitle{
+    width: 435px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 16px;
+    color: #E0E0E0;
+    margin-top: 24px;
+}
+.button-try-f-f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 202px;
+    height: 64px;
+    border-radius: 32px;
+    background-color: #3671E9;
+    color: white;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 18px;
+    transition-duration: .3s;
+    margin-top: 32px;
+}
+.button-try-f-f:hover{
+    background-color: #ffffff;
+    color: #3671E9;
 }
 
 @font-face {
